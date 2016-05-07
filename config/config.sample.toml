@@ -1,0 +1,26 @@
+[core]
+# siteTitle = "Application Title"
+# siteCompanyName = ""
+# Must include port if not normal http/https
+# siteDomainName = ""
+
+[logging]
+# enabled = false
+# enableHTTP = false
+# level = "notice"
+# path = "logs/application.log"
+
+[database]
+# type = "sqlite"
+# address = "database.sqlite3"
+# username = ""
+# password = ""
+
+[webserver]
+# Leave address blank to bind to all addresses
+# address = ""
+# HTTPPort = 8080
+# HTTPSPort = 1443
+# TLSCertFile = ""
+# TLSKeyFile = ""
+# redirectHTTPToHTTPS = false
